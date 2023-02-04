@@ -1,10 +1,5 @@
-import { configureStore } from '@reduxjs/toolkit';
-import profileReducer  from '../features/profileSlice';
-import postReducer from '../features/postSlice';
+import { configureStore } from "@reduxjs/toolkit";
 
 export const store = configureStore({
-  reducer: {
-    profile: profileReducer,
-    post: postReducer
-  },
+  reducer: {},
 });
